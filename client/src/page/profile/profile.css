@@ -1,0 +1,113 @@
+.wrapper-profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-div {
+    width: 20%;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-image {
+    width: 60%;
+    height: 30%;
+    border: 2px solid white;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-profile {
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.paragraph-style {
+    color: white;
+    padding: 12px;
+}
+
+.second-div {
+    width: 70%;
+    height: 100%;
+}
+
+.menù-show-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: fit-content;
+}
+
+.btn-profile {
+    margin-top: 12px;
+}
+
+.wrapper-team-profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-pokemon-team {
+    width: 8%;
+    height: 8%;
+}
+
+.img-held-item {
+    width: 4%;
+    height: 4%;
+    margin-left: -1.5%;
+}
+
+.subwrapper-team-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-square-profile {
+    padding: 12px;
+}
+
+.wrapper-square {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.first-square,
+.second-square,
+.third-square,
+.fourth-square,
+.fifth-square {
+    width: 60%;
+    height: 80%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid white;
+}
+
+.sixth-square,
+.seventh-square,
+.eighth-square {
+    width: 70%;
+    height: 95%;
+    border: 1px solid white;
+}
+
+
+
+

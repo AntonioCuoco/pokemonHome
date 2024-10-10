@@ -1,0 +1,35 @@
+.container-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8rem;
+    right: 1rem;
+    width: 120px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.container-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    right: 1.1rem;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.menù-dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.li-items-dropdown {
+    color: black;
+    padding: 8px;
+    border-bottom: 0.1px solid grey;
+}

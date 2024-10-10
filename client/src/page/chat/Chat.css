@@ -1,0 +1,133 @@
+html  {
+  padding: 0;
+  margin: 0;
+  background-color: #020202;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper-app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #020202;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-modal {
+  position: absolute;
+  width:40vw;
+  height:auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+}
+
+.wrapper-modal-two {
+  position: absolute;
+  width:40vw;
+  height:auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+}
+
+.wrapper-user-chat {
+  width: 20vw;
+  height: 100%;
+  border-right:1px solid white;
+  padding: 16px;
+}
+
+.chat-component {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-top: 16px;
+}
+
+.wrapper-chat-message {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 15px -3px #fff, 0 4px 6px -4px #fff;
+  background-color: #000;
+}
+
+.wrapper-chat {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-input {
+  width: 100%;
+  height: 10vh;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-send-message {
+  width: 5vw;
+  margin-right: 16px;
+}
+
+.selection-input {
+  width: 40%;
+}
+
+.online-component {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius:20%;
+}
+
+.btn-container-socket {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top:16px;
+}
+
+.img-profile-pic {
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.img-online {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  background-color: green;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.img-offline {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  background-color: red;
+  border-radius: 100%;
+  margin-right: 16px;
+}

@@ -1,0 +1,87 @@
+.wrapper-pokedex-component {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-page-pokedex {
+    display: flex;
+    flex-direction: row;
+    background-color: #0D1B2A;
+}
+
+.wrapper-pokedex-elements {
+    width: 30%;
+    height: 100%;
+}
+
+.element-pokedex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+    width: 90%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.wrapper-info-pokemon {
+    width: 70%;
+    height: 100%;
+}
+
+.img-pokemon {
+    width: 15%;
+    height: 15%;
+}
+
+.first-row {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.first-element-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stats-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stats-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.wrapper-types {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.types-paragraph {
+    border: 1px solid white;
+    color: white;
+    width: fit-content;
+    padding: 8px;
+    height: fit-content;
+}
+
+.locationAreaEncounter {
+    /* display: flex;
+    flex-direction: column;
+    gap: 8px; */
+}
+
+.virtuoso-div {
+    height: 78vh !important;
+}

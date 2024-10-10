@@ -1,0 +1,17 @@
+.wrapper-page-register {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 16px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.wrapper-submit-btn-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 12px;
+}
